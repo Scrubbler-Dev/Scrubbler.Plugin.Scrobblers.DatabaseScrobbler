@@ -1,7 +1,7 @@
-using Scrubbler.Abstractions;
-using Scrubbler.Abstractions.Plugin;
-using Scrubbler.Abstractions.Services;
 using Scrubbler.Plugin.Accounts.LastFm;
+using Scrubbler.PluginBase;
+using Scrubbler.PluginBase.Plugin;
+using Scrubbler.PluginBase.Services;
 using Shoegaze.LastFM;
 
 namespace Scrubbler.Plugin.Scrobblers.DatabaseScrobbler;
@@ -10,7 +10,7 @@ namespace Scrubbler.Plugin.Scrobblers.DatabaseScrobbler;
     Name = "Database Scrobbler",
     Description = "Search and scrobble from various online music databases",
     SupportedPlatforms = PlatformSupport.All)]
-public class DatabaseScrobblePlugin : Abstractions.Plugin.PluginBase, IScrobblePlugin
+public class DatabaseScrobblePlugin : PluginBase.Plugin.PluginBase, IScrobblePlugin
 {
     #region Properties
 

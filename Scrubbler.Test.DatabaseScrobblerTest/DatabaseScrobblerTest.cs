@@ -1,6 +1,6 @@
 using Moq;
-using Scrubbler.Abstractions.Services;
 using Scrubbler.Plugin.Scrobblers.DatabaseScrobbler;
+using Scrubbler.PluginBase.Services;
 using Shoegaze.LastFM;
 using Shoegaze.LastFM.Album;
 using Shoegaze.LastFM.Artist;
