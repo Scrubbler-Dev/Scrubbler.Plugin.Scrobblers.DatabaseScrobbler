@@ -5,7 +5,7 @@
     xmlns:local="using:Scrubbler.Plugin.Scrobblers.DatabaseScrobbler"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:conv="using:Scrubbler.Abstractions.Converter"
+    xmlns:conv="using:Scrubbler.PluginBase.Converter"
     xmlns:beh="using:Microsoft.Xaml.Interactivity"
     xmlns:actions="using:Microsoft.Xaml.Interactions.Core"
     mc:Ignorable="d"

@@ -5,7 +5,7 @@
     xmlns:local="using:Scrubbler.Plugin.Scrobblers.DatabaseScrobbler"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:controls="using:Scrubbler.Abstractions.Controls"
+    xmlns:controls="using:Scrubbler.PluginBase.Controls"
     xmlns:tv="using:WinUI.TableView"
     xmlns:beh="using:Microsoft.Xaml.Interactivity"
     xmlns:actions="using:Microsoft.Xaml.Interactions.Core"
